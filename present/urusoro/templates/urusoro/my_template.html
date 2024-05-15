@@ -1,0 +1,14 @@
+<!-- my_template.html -->
+<html>
+<head>
+    <title>My App</title>
+</head>
+<body>
+    <h1>My Model Objects</h1>
+    <ul>
+        {% for obj in my_objects %}
+            <li>{{ obj.name }} - {{ obj.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
